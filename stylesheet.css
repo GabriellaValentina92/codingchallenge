@@ -1,0 +1,83 @@
+/* backcground imagine */
+body{
+  background-image: url(sfondo.jpg);
+  background-size: cover;
+  display: inline-block;
+}
+
+/* box contenitore */
+.container{
+  width: 835px;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 15px;
+  margin: 30px 50px 20px 250px;
+  padding: 55px 70px 60px 75px;
+  box-sizing: border-box;
+}
+
+/* logo e titolo */
+.logo{
+  width: 170px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.logotext{
+  text-align: center;
+  color: rgb(0, 255, 0);
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  line-height: 5px;
+}
+
+/* impostazione box r tasti del menù */
+.menù{
+  background-color: rgb(0, 255, 0);
+  box-sizing: border-box;
+  padding: 5px 225px 15px;
+  margin-bottom: 15px;
+  height: 30px;
+}
+
+.button{
+  font-size: 9px;
+  height: 15px;
+}
+
+/* proprietà lista monopattini */
+.monopattini{
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  color: rgb(255, 255, 255);
+  line-height: 6px;
+}
+
+.indicazione{
+  font-size: 11px;
+}
+
+/* stato carica */
+.loading{
+  border: 10px solid rgba(249, 181, 58);
+  border-radius: 5px;
+  width: 250px;
+  box-sizing: border-box;
+  margin: 0px 0px 15px;
+}
+
+.loading1{
+  border: 10px solid rgb(50, 205, 50);
+  border-radius: 5px;
+  width: 400px;
+  box-sizing: border-box;
+  margin: 0px 0px 15px;
+}
+
+.loading2{
+  border: 10px solid rgba(167, 65, 65);
+  border-radius: 5px;
+  width: 100px;
+  box-sizing: border-box;
+  margin: 0px 0px 15px;
+}
